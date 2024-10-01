@@ -20,18 +20,18 @@
         <!-- navbar navbar-light são classes prontas do bootstrap -->
         <nav class="navbar navbar-light nav-top">
             <div class="container-fluid nav-container">
-                <a class="navbar-brand" href="https://www.instagram.com/eitaperolaa/" target="_blank">
-                    <img src="img/logo.png" style="max-width:130px; max-height:80px">
+                <a class="navbar-brand" href="https://www.instagram.com/eitaperolaa/" target="_blank" title="Página inicial">
+                  <img class="img-logo" src="img/logo.png">
                 </a>
-                <form class="d-flex">   <!-- Criado para o  campo de pesquisa -->
-                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                <form class="d-flex">   <!-- Criado para o campo de pesquisa -->
+                  <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Search">
                 </form>
-                <div style="width: 30%;">
-                    <i class="bi bi-house-door icons"></i>
-                    <i class="bi bi-inbox icons"></i>
-                    <i class="bi bi-compass icons"></i>
-                    <i class="bi bi-heart icons"></i>
-                    <img class="img-nav" src="img/euInsta.jpg">
+                <div class="container-icons">
+                  <i class="bi bi-house-door icons"></i>
+                  <i class="bi bi-inbox icons"></i>
+                  <i class="bi bi-compass icons"></i>
+                  <i class="bi bi-heart icons"></i>
+                  <img class="img-nav" src="img/euInsta.jpg">
                 </div>
             </div>
         </nav>
@@ -45,17 +45,19 @@
           <!-- O somatório de cada casinha na coluna é de 12 e, e só usa o "COL",  já se divide igual na quantidade de colunas -->
           <!-- Coluna central  -->
           <div class="col-12 col-md-8">
-            <div class="row" style="padding-top: 20px;">
+            <div class="row titulo-bio">
               <div class="col-3">
-                <img class="img-profile" src="img/euInsta.jpg">
+                <img class="img-profile container-stories" src="img/euInsta.jpg">
               </div>
               <div class="col-7">
-                <div class="row" style="padding-top: 20px; padding-bottom: 10px;">
-                  <div class="col-8 col-lg-5">
+                <div class="row titulo-bio">
+                  <div class="col-7 col-lg-4">
                     <h2 class="username">eitaperolaa</h2>
                   </div>
-                  <div class="col-4 col-lg-6">
+                  <div class="col-5 col-lg-7">
                     <button type="button" class="btn btn-outline-secondary button-edit">Editar perfil</button>
+                    <button type="button" class="btn btn-outline-secondary button-edit">Itens Arquivados</button>
+                    <i class="bi bi-gear-wide" style="font-size: 19px;"></i>
                   </div>
                 </div>
                 <div class="row">
@@ -63,10 +65,10 @@
                     <p class="profile-desc"><strong>91</strong> publicações</p>
                   </div>
                   <div class="col-4">
-                    <p class="profile-desc"><strong>1.944</strong> seguidores</p>
+                    <p class="profile-desc"><strong>1.942</strong> seguidores</p>
                   </div>
                   <div class="col-4">
-                    <p class="profile-desc"><strong>1.933</strong> seguindo</p>
+                    <p class="profile-desc"><strong>1.932</strong> seguindo</p>
                   </div>
                 </div>
                 <div class="row">
@@ -81,22 +83,26 @@
                 </div>
               </div>
             </div>
-            <div class="conteiner-stories">
+            <div class="container-stories">
               <div class="col-2"></div>
             
               <div style="padding-top: 0px;">
                 <div class="row">
-                  <div class="col-2"><img class="img-storie" src="img/storie1.png"></div>
-                  <div class="col-2"><img class="img-storie" src="img/storie2.png"></div>
-                  <div class="col-2"><img class="img-storie" src="img/storie3.png"></div>
+                  <div class="col-2"><a class="navbar-brand" href="https://www.instagram.com/stories/highlights/18189610861257452/" target="_blank"><img class="img-storie" src="img/storie1.png"></a></div>
+                  <div class="col-2"><a class="navbar-brand" href="https://www.instagram.com/stories/highlights/17866359865246633/" target="_blank"><img class="img-storie" src="img/storie2.png"></a></div>
+                  <div class="col-2"><a class="navbar-brand" href="https://www.instagram.com/stories/highlights/17979418423092287/" target="_blank"><img class="img-storie" src="img/storie3.png"></a></div>
+                  <div class="col-2"><a class="navbar-brand" href="https://www.instagram.com/stories/highlights/17878496992203369/" target="_blank"><img class="img-storie" src="img/storie4.png"></a></div>
+                  <div class="col-2"><img class="img-storie" src="img/storie5.png"></div>
                 </div>
               </div>
             </div>
             <div style="padding-bottom: 40px;">
               <div class="row">
-                <div class="col-2 stories">Não tô aqui</div>
-                <div class="col-2 stories">💁🏻‍♀️💁🏼‍♀️</div>
-                <div class="col-2 stories">Go, Hollywoo...</div>
+                <div class="col-2 stories"><a class="navbar-brand" href="https://www.instagram.com/stories/highlights/18189610861257452/" target="_blank">Não tô aqui</a></div>
+                <div class="col-2 stories"><a class="navbar-brand" href="https://www.instagram.com/stories/highlights/17866359865246633/" target="_blank">💁🏻‍♀️💁🏼‍♀️</a></div>
+                <div class="col-2 stories"><a class="navbar-brand" href="https://www.instagram.com/stories/highlights/17979418423092287/" target="_blank">Go, Hollywoo...</a></div>
+                <div class="col-2 stories"><a class="navbar-brand" href="https://www.instagram.com/stories/highlights/17878496992203369/" target="_blank">Gravou 😍</a></div>
+                <div class="col-2 stories">Novo</div>
               </div>
             </div>
 
